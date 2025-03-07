@@ -5,10 +5,15 @@
 This project automates candidate ranking and resume screening with Natural Language Processing (NLP) and Machine Learning (ML) to assist recruiters in shortlisting candidates efficiently based on job descriptions.
 
 --> Key Features:
+
      Resume Processing Automation: Extracts text from PDF resumes using pdfplumber.
+     
      Smart Ranking: Ranks candidates utilizing TF-IDF vectorization and cosine similarity.
+     
      Normalizing Similarity Score: Prevents unfair ranking by scaling similarity scores between 0 and 1 for uniformity.
+     
      Interactive Dashboard: Created with Streamlit to input job descriptions and upload resumes.
+     
      Downloadable Reports: Generates ranked candidates as a CSV report for deeper analysis.
      
 --> Technology Stack:
